@@ -1,0 +1,77 @@
+.footer {
+    &__top {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        background: #0f2a51;
+        color: #fff;
+        h4.label-company {
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 30px;
+        }
+        ul {
+            li {
+                line-height: 30px;
+                a {
+                    color: #fff;
+                    -webkit-transition: all .3s ease;
+                    -moz-transition: all .3s ease;
+                    -ms-transition: all .3s ease;
+                    -o-transition: all .3s ease;
+                    transition: all .3s ease;
+                    &:hover {
+                        color: #cea54b;
+                        &>i {
+                            margin-right: 15px;
+                            color: #cea54b;
+                        }
+                    }
+                }
+            }
+            i {
+                margin-right: 10px;
+                -webkit-transition: all .3s ease;
+                -moz-transition: all .3s ease;
+                -ms-transition: all .3s ease;
+                -o-transition: all .3s ease;
+                transition: all .3s ease;
+            }
+        }
+        .form__footer {
+            input {
+                border: none;
+                background: #fff;
+                border-radius: 0;
+                .submit {
+                    padding: 0 5px 0 10px;
+                    cursor: pointer;
+                }
+            }
+            .form-control:focus {
+                box-shadow: none;
+                outline: 0;
+                border-color: #fff;
+                background: #fff;
+            }
+        }
+    }
+    &__bottom {
+        background: #092144;
+        color: #fff;
+        padding: 2px 0;
+        p {
+            line-height: 30px;
+        }
+        ul.footer__bottom-list li a {
+            color: #fff;
+            background: #3a4d69;
+            height: 30px;
+            width: 30px;
+            border-radius: 2px;
+            display: inline-block;
+            margin-left: 5px;
+            text-align: center;
+            line-height: 30px;
+        }
+    }
+}
