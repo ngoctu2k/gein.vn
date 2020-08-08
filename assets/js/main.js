@@ -44,12 +44,9 @@
         var iconShowSubMenu = $('.icon-subnav')
         var subMenuMobile = $('.subnav-children')
         var liMenuMobile = $('#list-menu-mobile>li')
-        console.log(liMenuMobile)
         iconShowSubMenu.click(function(e) {
             let liClick = $(this).parent()
             let subMenuli = $(this).next()
-            console.log(subMenuli)
-            
             if (liMenuMobile.hasClass('active') && liMenuMobile.hasClass('active') != liClick.hasClass('active')) {
                 subMenuMobile.slideUp()
                 liMenuMobile.removeClass('active')
@@ -62,7 +59,6 @@
         var sideSearch = $('.side-search-container')
         var buttonShowMenu = $('#button-menu-show')
         var sideMenu = $('#side-menu-nav')
-        console.log(sideMenu)
         var mainBody = $('#main-body')
         var sideWrap = $('.side-menu-wrap')
         var siteOverlay = $("#site-overlay")
