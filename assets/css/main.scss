@@ -1,0 +1,34 @@
+/*
+/*
+Theme name : Gein.vn;
+Theme description : Awesome Oncode Web3B;
+Author : Tran Tu;
+Version : 1.0.0;
+ ================== Table Of Content ================== 
+  1,Reset css
+  2,Header
+  3,Banner
+  4,Home
+  5,news
+  6,product
+  7,Footer
+  8,Reponsive
+*/
+/* ================== 1,Reset css ==================*/
+@import "./settings/index.scss";
+/* ================== 2,Header css ==================*/
+@import "./layouts/header.scss";
+/* ================== 3,Banner css ==================*/
+@import "./layouts/banner.scss";
+/* ================== 4,Home css ==================*/
+@import "./pages/home/index.scss";
+/* ================== 5,Product css ==================*/
+@import "./pages/product/index.scss";
+/* ================== 7,News css ==================*/
+@import "./pages/news/index.scss";
+/* ================== 8,Footer css ==================*/
+@import "./layouts/footer.scss";
+/* ================== 9,Menumobile css ==================*/
+@import "./layouts/menumobile.scss";
+/* ================== 10,Sidebar css ==================*/
+@import "./layouts/sidebar.scss";
