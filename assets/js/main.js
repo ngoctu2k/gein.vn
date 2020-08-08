@@ -1,4 +1,8 @@
       $(document).ready(function() {
+        // =============== lazy Load ==============
+         var myLazyLoad = new LazyLoad({
+            elements_selector:".photo"
+        })
           // =============== Slide Story ==============
           $('.slide__story').owlCarousel({
               loop: true,
