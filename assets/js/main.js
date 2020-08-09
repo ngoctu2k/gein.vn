@@ -92,6 +92,10 @@
         buttonShowSearch.click(function() {
             showSideWrap(sideSearch);
         })
+        // Click overlay close site Menu
+        siteOverlay.click(function(){
+            closeSideWrap();
+        })
     });
     // button scroll to top =====================================
     var buttonScrollTop = {
