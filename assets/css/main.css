@@ -502,8 +502,6 @@ iframe {
 }
 .portfolio__right {
     position: relative;
-    width: calc(100% - 15px);
-    height: calc(100% - 15px);
     top: 15px;
 }
 .portfolio__right:hover .play-video {
@@ -1151,9 +1149,11 @@ nav ul.pagination li :hover {
     background: #fff;
     border-radius: 0;
 }
-.footer__top .form__footer input .submit {
-    padding: 0 5px 0 10px;
+.footer__top .form__footer .submit {
+    padding: 0 10px;
     cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
 }
 .footer__top .form__footer .form-control:focus {
     box-shadow: none;
@@ -1164,7 +1164,7 @@ nav ul.pagination li :hover {
 .footer__bottom {
     background: #092144;
     color: #fff;
-    padding: 2px 0;
+    padding: 10px 0;
 }
 .footer__bottom p {
     line-height: 30px;

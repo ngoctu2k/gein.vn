@@ -42,10 +42,12 @@
                 border: none;
                 background: #fff;
                 border-radius: 0;
-                .submit {
-                    padding: 0 5px 0 10px;
-                    cursor: pointer;
-                }
+            }
+            .submit {
+                padding: 0 10px;
+                cursor: pointer;
+                font-size: 24px;
+                font-weight: bold;
             }
             .form-control:focus {
                 box-shadow: none;
@@ -58,7 +60,7 @@
     &__bottom {
         background: #092144;
         color: #fff;
-        padding: 2px 0;
+        padding: 10px 0;
         p {
             line-height: 30px;
         }
