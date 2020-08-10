@@ -140,12 +140,7 @@
                             </li>
                         </ul>
                         <nav aria-label="Page navigation example">
-                            <ul class="pagination">
-                                <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
-                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            <ul class="pagination" id="pagination">
                             </ul>
                         </nav>
                     </div>
@@ -153,12 +148,20 @@
                         <div class="side__bar">
                             <div class="side__bar-menu">
                                 <h4 class="side__bar-title text-light">TIN TỨC</h4>
-                                <ul class="side__bar-list">
-                                    <li>
+                                <ul class="side__bar-list" id="list-category-bar">
+                                    <li class="">
                                         <a href="#"><i class="fas fa-angle-right"></i>Hoạt động chung</a>
+                                        <ul class="sub-menu-bar">
+                                            <li><a href="#">Về gein</a></li>
+                                            <li><a href="#">Câu chuyện thành công</a></li>
+                                        </ul>
                                     </li>
                                     <li>
                                         <a href="#"><i class="fas fa-angle-right"></i>Sự kiện sắp diễn ra</a>
+                                        <ul class="sub-menu-bar">
+                                            <li><a href="#">Về gein</a></li>
+                                            <li><a href="#">Câu chuyện thành công</a></li>
+                                        </ul>
                                     </li>
                                     <li>
                                         <a href="#"><i class="fas fa-angle-right"></i>Bài học cuộc sống</a>
@@ -376,6 +379,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <!-- Lazy load -->
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+    <!-- Pagination -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twbs-pagination/1.4.1/jquery.twbsPagination.min.js"></script>
     <!-- Main js-->
     <script src="assets/js/main.js"></script>
     </div>

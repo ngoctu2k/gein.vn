@@ -27,9 +27,11 @@
                 border-bottom: 1px solid #ccc;
             }
             li.active {
-                background: #cea54b;
-                a {
-                    color: #fff;
+                >a {
+                    color: #cea54b;
+                    i {
+                        transform: rotate(90deg);
+                    }
                 }
             }
             li {
@@ -37,8 +39,7 @@
                 a {
                     padding: 10px 10px;
                     display: inline-block;
-                    line-height: normal;
-                    -webkit-transition: all .25s ease;
+                    line-height: normal; 
                     -moz-transition: all .25s ease;
                     -ms-transition: all .25s ease;
                     -o-transition: all .25s ease;
@@ -52,11 +53,20 @@
                     }
                     i {
                         margin-right: 5px;
-                        -webkit-transition: all .25s ease;
-                        -moz-transition: all .25s ease;
-                        -ms-transition: all .25s ease;
-                        -o-transition: all .25s ease;
-                        transition: all .25s ease;
+                        transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+                        -webkit-transition:1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+                           -moz-transition:1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+                            -ms-transition:1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+                             -o-transition:1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+                           
+                    }
+                }
+                ul.sub-menu-bar{
+                    display: none;
+                    li {
+                        a {
+                            padding: 8px 0px 8px 35px;
+                        }
                     }
                 }
             }

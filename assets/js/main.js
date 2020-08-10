@@ -55,6 +55,15 @@
             subMenuli.slideToggle()
         })
         // =====================================
+        //    // Sub menu side bar
+        var titleCategory = $('#list-category-bar>li>a')
+        console.log(titleCategory)
+        titleCategory.click(function(event) {
+            event.preventDefault();
+            $(this).next().slideToggle()
+            $(this).parent().toggleClass('active')
+        });
+        // =====================================
         var buttonShowSearch = $('.button-search')
         var sideSearch = $('.side-search-container')
         var buttonShowMenu = $('#button-menu-show')
@@ -93,7 +102,7 @@
             showSideWrap(sideSearch);
         })
         // Click overlay close site Menu
-        siteOverlay.click(function(){
+        siteOverlay.click(function() {
             closeSideWrap();
         })
     });
@@ -124,3 +133,14 @@
         }
     }
     buttonScrollTop.init();
+    // code phan trang 
+    $('#pagination').twbsPagination({
+        totalPages: 16,
+        visiblePages: 4,
+        next: false,
+        prev: false,
+        onPageClick: function(event, page) {
+            //fetch content and render here
+            $('#page-content').text('Page ' + page) + ' content here';
+        }
+    });

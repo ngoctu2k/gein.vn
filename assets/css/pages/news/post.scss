@@ -61,3 +61,11 @@ nav {
         }
     }
 }
+/* responsive news */
+@media (max-width: 767px){
+    .post-description{
+        h3{
+            margin-top: .5rem;
+        }
+    }
+}
