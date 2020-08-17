@@ -9,6 +9,7 @@
             margin: 30,
             dots: true,
             nav: false,
+            autoplay:true,
             responsive: {
                 0: {
                     items: 1
@@ -27,6 +28,7 @@
             margin: 30,
             nav: true,
             dots: true,
+            autoplay:true,
             responsive: {
                 0: {
                     items: 2
